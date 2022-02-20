@@ -32,6 +32,10 @@
     "uglifyify": "^5.0.2"
   },
   "dependencies": {
+    "browserslist": "^4.19.3",
     "node-sass": "^7.0.1"
+  },
+  "resolutions": {
+    "gift": "^0.10.2"
   }
 }

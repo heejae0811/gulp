@@ -1830,7 +1830,7 @@ browserify@^16.5.0:
     vm-browserify "^1.0.0"
     xtend "^4.0.0"
 
-browserslist@^4.17.5, browserslist@^4.19.1:
+browserslist@^4.17.5, browserslist@^4.19.1, browserslist@^4.19.3:
   version "4.19.3"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.19.3.tgz#29b7caad327ecf2859485f696f9604214bedd383"
   integrity sha512-XK3X4xtKJ+Txj8G5c30B4gsm71s69lqXlkYui4s6EkKxuv49qjYlY6oVd+IFJ73d4YymtM3+djvvt/R/iJwwDg==
@@ -3486,6 +3486,11 @@ flagged-respawn@^1.0.0:
   resolved "https://registry.yarnpkg.com/flagged-respawn/-/flagged-respawn-1.0.1.tgz#e7de6f1279ddd9ca9aac8a5971d618606b3aab41"
   integrity sha512-lNaHNVymajmk0OJMBn8fVUAU1BtDeKIqKoVhk4xAALB57aALg6b4W0MfJ/cUE0g9YBXy5XhSlPIpYIJ7HaY/3Q==
 
+flex-exec@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/flex-exec/-/flex-exec-1.0.0.tgz#06974b68532839d2a12c32debcdb12378200fdf0"
+  integrity sha1-BpdLaFMoOdKhLDLevNsSN4IA/fA=
+
 flush-write-stream@^1.0.2:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/flush-write-stream/-/flush-write-stream-1.1.1.tgz#8dd7d873a1babc207d94ead0c2e0e44276ebf2e8"
@@ -3741,12 +3746,13 @@ gifsicle@^6.1.0:
     bin-wrapper "^4.0.0"
     execa "^5.1.1"
 
-gift@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/gift/-/gift-0.6.1.tgz#c1698e6b6887164ed978a01095423cff65b8e79f"
-  integrity sha1-wWmOa2iHFk7ZeKAQlUI8/2W4558=
+gift@^0.10.2, gift@^0.6.1:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/gift/-/gift-0.10.2.tgz#4600efe8f284b51fcb01c3527b321e22b494e156"
+  integrity sha512-wC9aKnQpjfOTWX+JG4DPJkS89ux6sl8EN4hXhv/2vBoXCDTEz1JiTeGTSeuKYlCqIgUFM1JwPVym34Sys3hvzw==
   dependencies:
-    underscore "1.x.x"
+    flex-exec "^1.0.0"
+    underscore "^1.8.3"
 
 glob-base@^0.3.0:
   version "0.3.0"
@@ -8293,7 +8299,7 @@ undeclared-identifiers@^1.1.2:
     simple-concat "^1.0.0"
     xtend "^4.0.1"
 
-underscore@1.x.x:
+underscore@^1.8.3:
   version "1.13.2"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.2.tgz#276cea1e8b9722a8dbed0100a407dda572125881"
   integrity sha512-ekY1NhRzq0B08g4bGuX4wd2jZx5GnKz6mKSqFL4nqBlfyMGiG10gDFhDTMEfYmDL6Jy0FUIZp7wiRB+0BP7J2g==
