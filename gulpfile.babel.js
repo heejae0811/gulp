@@ -9,7 +9,9 @@ import autoprefixer from "gulp-autoprefixer";
 import miniCSS from "gulp-csso";
 import bro from "gulp-bro";
 import babelify from "babelify";
-import ghPages from "gulp-gh-pages"
+// import ghPages from "gulp-gh-pages"
+
+var ghPages = require('gulp-gh-pages');
 
 const sass = gulpSass(dartSass);
 
