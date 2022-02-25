@@ -2,11 +2,11 @@
   "name": "gulp",
   "version": "1.0.0",
   "description": "Learn Gulp",
-  "main": "index.js",
   "repository": "https://github.com/heejae0811/gulp.git",
   "author": "이희재",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "gulp dev",
     "build": "gulp build",
@@ -28,14 +28,17 @@
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-webserver": "^0.9.1",
+    "node-sass": "^7.0.1",
     "sass": "^1.49.8",
     "uglifyify": "^5.0.2"
   },
   "dependencies": {
-    "browserslist": "^4.19.3",
-    "node-sass": "^7.0.1"
+    "browserslist": "^4.19.3"
   },
   "resolutions": {
     "gift": "^0.10.2"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
